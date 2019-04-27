@@ -6,13 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class First extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_first);
 
         Button gen, next_btn;
         next_btn = (Button) findViewById(R.id.nxt_btn);
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
 //                if(sp1.getSelectedItem().toString()!="Please Select Location") {
-                Intent rIntent = new Intent(MainActivity.this,Second.class);
+                Intent rIntent = new Intent(First.this,Second.class);
 //                rIntent.putExtra("key","sdfsdf");
                 //  rIntent.putExtra("key", sp1.getSelectedItem().toString());
                 startActivity(rIntent);

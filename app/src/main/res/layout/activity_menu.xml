@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="199dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="144dp">
+
+        <Button
+            android:id="@+id/first_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Screen" />
+
+        <Button
+            android:id="@+id/second_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Second Screen" />
+
+        <Button
+            android:id="@+id/third_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Third Screen" />
+
+        <Button
+            android:id="@+id/forth_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forth Screen" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Third">
-
+    tools:context=".Forth">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -170,17 +169,9 @@
                         android:layout_weight="1"
 
                         android:inputType="textPersonName"
-                        android:text="Scan Qty" />
-
-                    <EditText
-                        android:id="@+id/editText5"
-                        android:layout_width="20dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
+                        android:text=" DPT" />
 
 
-                        android:inputType="textPersonName"
-                        android:text="Prev scan qty" />
 
                     <EditText
                         android:id="@+id/editText6"
@@ -189,7 +180,7 @@
                         android:layout_weight="1"
 
                         android:inputType="textPersonName"
-                        android:text="Total qty" />
+                        android:text="RETAIL PRICE" />
                 </LinearLayout>
 
 
