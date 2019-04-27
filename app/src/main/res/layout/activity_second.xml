@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Second">
+
+
 
     <LinearLayout
         android:layout_width="368dp"
@@ -19,7 +21,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/nxt_btn"
+                android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -59,27 +61,23 @@
                 android:layout_height="match_parent" >
 
                 <TextView
-                    android:layout_width="151dp"
+                    android:layout_width="180sp"
                     android:padding="3dip"
-                    android:text="UPC LABEL (A/E)" />
+                    android:text="UPC LABEL " />
 
                 <TextView
-                    android:layout_width="92dp"
+                    android:layout_width="109dp"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:text="SCAN" />
+                    android:text="DPT" />
 
                 <TextView
                     android:layout_width="70dp"
-                    android:gravity="left"
+                    android:gravity="center"
                     android:padding="3dip"
-                    android:text="LAST" />
+                    android:text="RETAIL" />
 
-                <TextView
-                    android:layout_width="83dp"
-                    android:gravity="left"
-                    android:padding="3dip"
-                    android:text="TTL" />
+
 
 
 
@@ -108,4 +106,6 @@
                 android:orientation="vertical" />
         </ScrollView>
     </LinearLayout>
+
+
 </android.support.constraint.ConstraintLayout>
