@@ -3,4 +3,61 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--NUMERIC NUMBER-->
+    <color name="numberColor">#313131</color>
+    <color name="numberColorBorder">#5e5e5e</color>
+    <color name="numberColorPress">#5e5e5e</color>
+    <color name="numberColorPressBorder">#313131</color>
+    <color name="numberTextColor">#fff</color>
+    <!--NUMERIC NUMBER END-->
+
+    <!-- ENTER KEY-->
+    <color name="enterColor">#2E5A5C</color>
+    <color name="enterColorBorder">#419494</color>
+    <color name="enterColorPress">#419494</color>
+    <color name="enterColorPressBorder">#419494</color>
+    <color name="enterTextColor">#fff</color>
+    <!--ENTER KEY END-->
+
+    <!--Clear Key-->
+    <color name="clearColor">#f27f13</color>
+    <color name="clearColorBorder">#f2ba13</color>
+    <color name="clearColorPress">#f2ba13</color>
+    <color name="clearColorPressBorder">#f27f13</color>
+    <color name="clearTextColor">#fff</color>
+    <!--Clear Key End-->
+
+    <!--Delete Key-->
+    <color name="deleteColor">#ff0000</color>
+    <color name="deleteColorBorder">#f2ba13</color>
+    <color name="deleteColorPress">#f2ba13</color>
+    <color name="deleteColorPressBorder">#f27f13</color>
+    <color name="deleteTextColor">#fff</color>
+    <!--Delete Key End-->
+
+    <!--Navigation Key-->
+    <color name="navigationColor">#272746</color>
+    <color name="navigationColorBorder">#545699</color>
+    <color name="navigationColorPress">#545699</color>
+    <color name="navigationColorPressBorder">#272746</color>
+    <color name="navigationTextColor">#fff</color>
+    <!--Navigation Key End-->
+
+    <!--Screen Key-->
+    <color name="screenColor">#3096F3</color>
+    <color name="screenColorBorder">#c1dcf4</color>
+    <color name="screenColorPress">#c1dcf4</color>
+    <color name="screenColorPressBorder">#3096F3</color>
+    <color name="screenTextColor">#fff</color>
+    <!--Screen Key End-->
+
+    <!--Key-->
+    <color name="keyColor">#a9e283</color>
+    <color name="keyColorBorder">#DAEFCC</color>
+    <color name="keyColorPress">#DAEFCC</color>
+    <color name="keyColorPressBorder">#a9e283</color>
+    <color name="keyTextColor">#fff</color>
+    <!-- Key End-->
+
 </resources>

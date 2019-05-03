@@ -9,11 +9,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingRight="5dp"
-        android:paddingTop="5dp"
-        android:paddingLeft="5dp"
-        android:paddingBottom="5dp"
         android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
@@ -25,8 +25,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
-                android:paddingRight="20dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingRight="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -38,7 +38,10 @@
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="SCREEN" />
+                        android:text="SCREEN"
+                        android:background="@drawable/screenkey"
+                        android:textColor="@color/screenTextColor"
+                        />
 
                     <EditText
                         android:id="@+id/editText2"
@@ -69,7 +72,10 @@
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="KEY" />
+                        android:text="KEY"
+                        android:background="@drawable/key"
+                        android:textColor="@color/keyTextColor"
+                        />
 
                     <EditText
                         android:id="@+id/editText22"
@@ -112,37 +118,46 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingRight="20dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:paddingRight="20dp">
 
                     <Button
                         android:id="@+id/clear"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="CLEAR" />
+                        android:background="@drawable/clearkey"
+                        android:textColor="@color/clearTextColor"
+                        android:text="CLEAR"
+                        />
 
                     <Button
                         android:id="@+id/delete"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="DELETE" />
+                        android:text="DELETE"
+                        android:background="@drawable/deletekey"
+                        android:textColor="@color/deleteTextColor" />
 
                     <Button
                         android:id="@+id/prev"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="PREV" />
+                        android:text="PREV"
+                        android:background="@drawable/navigationbutton"
+                        android:textColor="@color/navigationTextColor"
+                        />
 
                     <Button
                         android:id="@+id/next"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:paddingRight="20dp"
-
                         android:layout_weight="1"
+                        android:paddingRight="20dp"
+                        android:background="@drawable/navigationbutton"
+                        android:textColor="@color/navigationTextColor"
                         android:text="NEXT" />
 
 
@@ -170,7 +185,6 @@
 
                         android:inputType="textPersonName"
                         android:text=" DPT" />
-
 
 
                     <EditText
@@ -202,21 +216,27 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="7" />
+                    android:background="@drawable/button"
+                    android:text="7"
+                    android:textColor="@color/numberTextColor" />
 
                 <Button
                     android:id="@+id/but8"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="8" />
+                    android:background="@drawable/button"
+                    android:text="8"
+                    android:textColor="@color/numberTextColor" />
 
                 <Button
                     android:id="@+id/but9"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="9" />
+                    android:background="@drawable/button"
+                    android:text="9"
+                    android:textColor="@color/numberTextColor" />
             </LinearLayout>
 
             <LinearLayout
@@ -229,21 +249,27 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:background="@drawable/button"
+                    android:text="4"
+                    android:textColor="@color/numberTextColor" />
 
                 <Button
                     android:id="@+id/but5"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="5" />
+                    android:background="@drawable/button"
+                    android:text="5"
+                    android:textColor="@color/numberTextColor" />
 
                 <Button
                     android:id="@+id/but6"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="6" />
+                    android:background="@drawable/button"
+                    android:text="6"
+                    android:textColor="@color/numberTextColor" />
             </LinearLayout>
 
             <LinearLayout
@@ -256,21 +282,27 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="1" />
+                    android:background="@drawable/button"
+                    android:text="1"
+                    android:textColor="@color/numberTextColor" />
 
                 <Button
                     android:id="@+id/but2"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="2" />
+                    android:background="@drawable/button"
+                    android:text="2"
+                    android:textColor="@color/numberTextColor" />
 
                 <Button
                     android:id="@+id/but3"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="3" />
+                    android:background="@drawable/button"
+                    android:text="3"
+                    android:textColor="@color/numberTextColor" />
             </LinearLayout>
 
             <LinearLayout
@@ -283,14 +315,20 @@
                     android:layout_width="8dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="0" />
+                    android:text="0"
+                    android:background="@drawable/button"
+                    android:textColor="@color/numberTextColor"
+                    />
 
                 <Button
                     android:id="@+id/button11"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Enter" />
+                    android:background="@drawable/enterkey"
+                    android:textColor="@color/enterTextColor"
+                    android:text="Enter"
+                    />
 
             </LinearLayout>
 
